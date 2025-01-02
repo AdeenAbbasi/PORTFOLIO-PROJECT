@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.servicescontainer{
+background-color: black;
+    width: 100vw;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    
+}
+.mycontent {
+    color: lightgrey;
+    width: 90%;
+    max-width: 600px;
+    line-height: 1.5;
+}
+.mycontent h2 {
+    margin-bottom: 10px;
+}
+
+.mycontent p {
+    margin-bottom: 20px;
+}
+.mycontent button {
+    display: block;        
+    margin: 10px auto; 
+    background-color: #ff0000;
+    color: white;             
+    padding: 10px 20px;       
+    font-size: 16px;          
+    border: none;           
+    border-radius: 5px;     
+    cursor: pointer;          
+    margin-top: 10px;
+     
+     
+     
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+.mycontent button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.mycontent button:hover {
+    background-color: #cc0000; 
+    transform: scale(1.05);    
+}
+
+
+.mycontent button:active {
+    background-color: #990000; 
+    transform: scale(0.95);    
+}
+.sidenav {
+    width: 100px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    position: fixed; /* Fixed position for side navigation */
+    left: 0; /* Ensures the sidebar is on the left */
+    top: 0; /* Starts from the top */
+    overflow-y: auto;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: lightgrey;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.sidenav a:hover {
+    background-color: #575757;
+}

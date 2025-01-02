@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; 
+    color: white;
+}
+
+.aboutcontainer {
+    background-color: black;
+    width: 100vw;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    overflow-y: auto; 
+}
+
+.mybox {
+    width: 300px;
+    height: 50px;
+    background-color: #800000;
+    color: lightgrey;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mycontent {
+    color: lightgray;
+    width: 90%;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.mycontent h2 {
+    margin-bottom: 10px;
+}
+
+.mycontent p {
+    margin-bottom: 20px;
+}
+.image {
+    
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    gap: 10px; 
+}
+
+.image img {
+    max-width: 100%;
+    height: auto; 
+    margin-top: 10px;
+    border: 4px solid beige;
+}
+    
+
+
+.sidenav {
+    width: 100px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    position: fixed; /* Fixed position for side navigation */
+    left: 0; /* Ensures the sidebar is on the left */
+    top: 0; /* Starts from the top */
+    overflow-y: auto;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: lightgrey;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.sidenav a:hover {
+    background-color: #575757;
+}
